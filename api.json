@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "What is the time complexity of binary search in a sorted array?",
+      "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+      "correctAnswer": "O(log n)"
+    },
+    {
+      "id": 2,
+      "question": "Which data structure is used for implementing recursion?",
+      "options": ["Queue", "Stack", "Linked List", "Array"],
+      "correctAnswer": "Stack"
+    },
+    {
+      "id": 3,
+      "question": "In which of the following sorting algorithms is the technique 'divide and conquer' used?",
+      "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Selection Sort"],
+      "correctAnswer": "Merge Sort"
+    },
+    {
+      "id": 4,
+      "question": "What is the maximum number of children a node can have in a binary tree?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": "2"
+    },
+    {
+      "id": 5,
+      "question": "What is the primary purpose of a database index?",
+      "options": ["Increase storage capacity", "Speed up data retrieval", "Ensure data consistency", "Manage user access"],
+      "correctAnswer": "Speed up data retrieval"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following protocols is used for secure communication over the internet?",
+      "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+      "correctAnswer": "HTTPS"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"],
+      "correctAnswer": "MongoDB"
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the OSI model in networking?",
+      "options": ["Data encryption", "Data storage", "Standardizing communication processes", "Data compression"],
+      "correctAnswer": "Standardizing communication processes"
+    },
+    {
+      "id": 9,
+      "question": "Which of these languages is primarily used for web development?",
+      "options": ["Python", "C++", "HTML", "Java"],
+      "correctAnswer": "HTML"
+    },
+    {
+      "id": 10,
+      "question": "What is the result of the operation 101 AND 011 in binary?",
+      "options": ["001", "101", "010", "011"],
+      "correctAnswer": "001"
+    }
+  ]
+  
