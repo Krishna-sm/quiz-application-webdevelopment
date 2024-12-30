@@ -2,7 +2,7 @@
  const question_heading = document.getElementById("question_heading")
 
 const urlLocation = new URL(window.location.href)
-let repo_name = "/quiz-application-webdevelopment/"
+
 let question_no =parseInt( urlLocation.searchParams.get("question") )||1
 let questions = []
 let answers =JSON.parse(localStorage.getItem("answers") || "[]")
@@ -106,7 +106,7 @@ const RenderQuestion = ()=>{
 
 const FetchAllQuestion = async()=>{
         try {
-                const response = await fetch(repo_name+'api.json')
+                const response = await fetch('/api.json')
                 const data =await response.json()
                 questions=data
                 RenderQuestion()
